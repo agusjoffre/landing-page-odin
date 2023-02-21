@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    
+}
+body {
+    margin: 0;
+    
+
+}
+.backround {
+    background-color: #1f2937;
+    
+}
+
+section {
+    margin: 10px 100px;
+}
+
+header {
+    padding: 30px 0;
+    margin: auto 100px;
+    
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+li {
+    display: flex;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+h3, .headerli {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
+.headerli {
+    display: flex;
+    padding: 0;
+    justify-content: space-between; 
+}
+
+.headerright {
+    display: flex;
+    gap: 16px;
+}
+
+
+#hero {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    
+}
+.heroleft, .heroright {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#subtitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+hero, .signup {
+    color:#e5e7eb;
+    background-color: #3882f6;
+    border-color: #3882f6;
+
+
+
+}
+img {
+    display: flex;
+}
+.heroimg {
+    flex-shrink: 1;
+    width: 500px;
+    height: 300px;
+}
+#sponsors {
+    
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.sponstitle {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.sponsul img {
+    width: 200px;
+    height: 200px;
+}
+.sponsul {
+    display: flex;
+
+        
+}
+.sponssubtitle {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 150px;
+}
+.pquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+#pauthor {
+    text-align: end;
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.prefooter {
+    padding: 80px;
+    
+    
+}
+.box {
+    border-radius: 6px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    padding: 50px;   
+    
+}
+
+
+.boxleft {
+    flex-direction: column;
+    width: 70%;
+    
+    color: #e5e7eb;
+}
+
+.boxright {
+    flex-direction: column;
+    width: 30%;
+}
+
+#cta {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#ctasub {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box .boxright .signup {
+    border-color: #f9faf8;
+
+    
+    
+}
+
+
+
+.footer {
+    background-color: #1f2937;
+    margin: 0;
+    padding: 20px;
+    
+}
+#copy {
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loginpage {
+    display: flex;   
+    justify-content: center;
+    background-color: #1f2937;
+    
+}
+.todologin {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.back {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    margin-top: 15px;
+}
+.loginpage {
+    color: #e5e7eb;
+}
